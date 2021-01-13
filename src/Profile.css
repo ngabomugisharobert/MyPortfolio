@@ -1,0 +1,13 @@
+.profile{
+    display: flex;
+    justify-content: center;
+    padding: 90px;
+}
+
+.profile__about{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 80px;
+    flex-wrap: wrap;
+}

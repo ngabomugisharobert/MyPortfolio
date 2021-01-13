@@ -1,0 +1,14 @@
+.head{
+    background-color: whitesmoke;
+    border-radius: 25px;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+}
+.menu > h4{
+    cursor: pointer;
+    padding: 10px 30px 10px 30px;
+}
