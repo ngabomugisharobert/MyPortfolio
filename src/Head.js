@@ -1,6 +1,5 @@
 import React from 'react'
 import "./Head.css"
-import CodeIcon from '@material-ui/icons/Code'
 import dev from './dev.svg'
 function Head() {
     return (
