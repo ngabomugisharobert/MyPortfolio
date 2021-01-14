@@ -10,7 +10,6 @@ function App() {
       <Head/>
       <Profile/>
       <Skills/>
-      <Tools/>
     </div>
   );
 }

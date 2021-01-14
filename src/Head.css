@@ -1,11 +1,13 @@
 .head{
-    background-color: whitesmoke;
-    border-radius: 25px;
+    background-color: black;
+    border-radius: 0px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding-left: 30px;
     padding-right: 30px;
+    top:0;
+    color:whitesmoke
 }
 .icon{
     padding: 30px;
@@ -21,7 +23,8 @@
 .menu > h4{
     cursor: pointer;
     padding: 10px 30px 10px 30px;
+    border-bottom: 2px solid rgb(0, 0, 0);
 }
 .menu > h4:hover{
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid rgb(8, 247, 215);
 }

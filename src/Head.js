@@ -1,11 +1,12 @@
 import React from 'react'
 import "./Head.css"
 import CodeIcon from '@material-ui/icons/Code'
+import dev from './dev.svg'
 function Head() {
     return (
         <div className="head">
         <div className="icon">
-            <CodeIcon/>
+            <img src={dev}/>
         </div>
             <div className="menu">
                 <h4>Home</h4>
