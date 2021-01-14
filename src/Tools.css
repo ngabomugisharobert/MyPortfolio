@@ -1,0 +1,9 @@
+.tool__list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.tool{
+    width:100px;
+    height:100px;
+    padding: 90px;
+}
