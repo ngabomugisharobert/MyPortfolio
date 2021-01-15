@@ -4,10 +4,23 @@
     justify-content: center;
 }
 .tool{
+    border: 1px solid white;
+    justify-content: center;
+    padding-bottom: 100px;
+    padding-top: -20px;
+}
+.tool__icon{
+
     width:100px;
     height:50px;
-    padding: 90px;
-    border: 1px solid white;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.tool__icon > h4{
+    text-align: center;
+    justify-content: center;
 }
 
 .tool:hover{
@@ -17,8 +30,14 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 100px;
 
 }
 .tools > h1 {
     text-align: center;
+    margin: 80px;
+    padding-bottom: 80px;
+    border-bottom: 2px solid whitesmoke;
+ 
 }
