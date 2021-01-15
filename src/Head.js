@@ -5,7 +5,7 @@ function Head() {
     return (
         <div className="head">
         <div className="icon">
-            <img src={dev}/>
+            <img src={dev} alt="Icon"/>
         </div>
             <div className="menu">
                 <h4>Home</h4>
