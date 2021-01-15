@@ -3,13 +3,11 @@
     flex-wrap: wrap;
     justify-content: center;
 }
-.skill{
+.skill__icon{
     width:100px;
     height:50px;
     padding: 90px;
-    padding-bottom: 130px;
     border: 1px solid white;
-    padding-top: -90px;
 }
 
 .skill:hover{
