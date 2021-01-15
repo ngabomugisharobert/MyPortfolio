@@ -1,9 +1,26 @@
 .tool__list{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .tool{
-    width:100px;
-    height:100px;
+    width:80px;
+    height:10px;
     padding: 90px;
+    padding-bottom: 130px;
+    border: 1px solid white;
+    padding-top: -90px;
+}
+
+.tool:hover{
+    border: 1px solid black;
+}
+.tools{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.tools > h1 {
+    text-align: center;
 }

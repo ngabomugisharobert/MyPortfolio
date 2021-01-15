@@ -1,9 +1,26 @@
 .skill__list{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .skill{
-    width:100px;
-    height:100px;
+    width:80px;
+    height:10px;
     padding: 90px;
+    padding-bottom: 130px;
+    border: 1px solid white;
+    padding-top: -90px;
+}
+
+.skill:hover{
+    border: 1px solid black;
+}
+.skills{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.skills > h1 {
+    text-align: center;
 }
