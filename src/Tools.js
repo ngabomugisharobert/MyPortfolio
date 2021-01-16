@@ -3,6 +3,12 @@ import './Tools.css'
 
 function Tools() {
     return (
+        <>
+
+    <main>
+      <section className="glass">
+        <div className="dashboard">
+
         <div className="tools">
             <h1>Tools</h1>
             <div className="tool__list">
@@ -68,6 +74,14 @@ function Tools() {
 
             </div>
         </div>
+
+</div>
+</section>
+</main>
+<div className="circle1"></div>
+<div className="circle2"></div>
+
+  </>
     )
 }
 

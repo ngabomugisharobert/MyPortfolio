@@ -3,6 +3,12 @@ import './Skills.css'
 
 function Skills() {
     return (
+        <>
+
+    <main>
+      <section className="glass">
+        <div className="dashboard">
+
         <div className="skills">
             <h1>Skills</h1>
             <div className="skill__list">
@@ -88,6 +94,14 @@ function Skills() {
 
             </div>
         </div>
+
+        </div>
+      </section>
+    </main>
+    <div className="circle1"></div>
+    <div className="circle2"></div>
+
+        </>
     )
 }
 
