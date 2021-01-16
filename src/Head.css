@@ -8,7 +8,6 @@
     top:0;
     color:rgb(53, 51, 51);
     position: static;
-    width: 50%;
     backdrop-filter: blur(10px);
     text-align: center;
     align-items: center;

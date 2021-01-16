@@ -7,7 +7,6 @@ function Skills() {
 
     <main>
       <section className="glass">
-        <div className="dashboard">
 
         <div className="skills">
             <h1>Skills</h1>
@@ -95,7 +94,6 @@ function Skills() {
             </div>
         </div>
 
-        </div>
       </section>
     </main>
     <div className="circle1"></div>

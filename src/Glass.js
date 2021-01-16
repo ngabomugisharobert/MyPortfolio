@@ -8,7 +8,6 @@ function Glass() {
 
     <main>
       <section className="glass">
-        <div className="dashboard">
 
         <div className="profile">
             <div className="profile__picture">
@@ -26,7 +25,6 @@ function Glass() {
             </div>
         </div>
 
-        </div>
       </section>
     </main>
     <div className="circle1"></div>
