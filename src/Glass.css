@@ -2,15 +2,14 @@
   
   main {
     font-family: "Poppins", sans-serif;
-    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    max-height: 100vh;
   }
   
   .glass {
     background: white;
-    min-height: 80vh;
     width: 90%;
     background: linear-gradient(
       to right bottom,
@@ -30,14 +29,14 @@
       rgba(255, 255, 255, 0.8),
       rgba(255, 255, 255, 0.3)
     );
-    height: 20rem;
-    width: 20rem;
+    height: 10rem;
+    width: 10rem;
     position: absolute;
     border-radius: 50%;
   }
   
   .circle1 {
-    top: 15%;
+    top: 5%;
     right: 1%;
   }
   .circle2 {
@@ -58,6 +57,11 @@
     justify-content: start;
     padding-left: 80px;
 }
+
+.about__note > p {
+    font-size: smaller;
+}
+
 .about__note{
     word-wrap: normal;
     font-weight: normal;
@@ -80,9 +84,10 @@
 }
 .profile__picture 
 {
-    width: 400px;
-    height: 400px;
+    width: 220px;
+    height: 270px;
     border-radius: 50px;
+    align-items: center;
 
     background: linear-gradient(
       to left top,
@@ -97,8 +102,8 @@
 }
 .profile__picture > img{
 
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
     border-radius: 280px;
 }
 

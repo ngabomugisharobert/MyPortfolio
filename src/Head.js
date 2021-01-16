@@ -1,11 +1,13 @@
 import React from 'react'
 import "./Head.css"
-import dev from './dev.svg'
+import {FaLaptopCode} from 'react-icons/fa'
+
+
 function Head() {
     return (
         <div className="head">
         <div className="icon">
-            <img src={dev} alt="Icon"/>
+            <FaLaptopCode/>
         </div>
             <div className="menu">
                 <h4>Home</h4>

@@ -5,26 +5,23 @@
 }
 .skill{
     justify-content: center;
-    padding-bottom: 100px;
-    padding-top: -20px;
-    -webkit-backdrop-filter: blur(2rem);
+    padding: 30px;
 }
 .skill__icon{
 
-    width:100px;
+    width:80px;
     height:50px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
     margin-top: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 .skill__icon > h4{
     text-align: center;
     justify-content: center;
+    font-size: smaller;
 }
 
-.skill:hover{
-}
 .skills{
     display: flex;
     justify-content: center;
@@ -44,7 +41,6 @@
       rgba(255, 255, 255, 0.5)
     );
     border-radius: 1rem;
-    margin: 2rem 0rem;
     padding: 2rem;
     box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
     justify-content: space-between;
@@ -64,7 +60,7 @@ main {
   
   .glass {
     background: white;
-    min-height: 80vh;
+    min-height: 70vh;
     width: 90%;
     background: linear-gradient(
       to right bottom,
@@ -75,6 +71,7 @@ main {
     z-index: 2;
     backdrop-filter: blur(2rem);
     display: flex;
+    padding-bottom: 90px;
   }
   .circle1,
   .circle2 {
