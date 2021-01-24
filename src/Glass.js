@@ -20,7 +20,7 @@ function Glass() {
             <div className="profile__about">
                 <div className="about__title">
                 <Jump>
-                    <p>Meet Robert</p>
+                    <p>About Me</p>
                 </Jump>
                 </div>
                 <HeadShake>

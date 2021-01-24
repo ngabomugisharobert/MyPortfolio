@@ -10,26 +10,45 @@
 
   }
   
-  .menu-bars {
+  .menu-bars2 {
     margin-left: 2rem;
     font-size: 2rem;
-    background: none;
     position: absolute;
     top:5%;
-
-
+    padding:10px 10px 5px 10px;
+    text-decoration: none;
     background: linear-gradient(
       to left top,
       rgba(255, 255, 255, 0.8),
       rgba(255, 255, 255, 0.5)
     );
     border-radius: 1rem;
-    padding: 15px;
     box-shadow: 6px 6px 20px rgba(94, 92, 92, 0.212);
     justify-content: space-between;
-
   }
-  
+  .menu-bars {
+    margin-left: 2rem;
+    font-size: 2rem;
+    position: absolute;
+    top:5%;
+    text-decoration: none;
+    background: linear-gradient(
+      to left top,
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.5)
+    );
+    border-radius: 1rem;
+    box-shadow: 6px 6px 20px rgba(94, 92, 92, 0.212);
+    justify-content: space-between;
+  }
+  .menu-bars > p{
+    font-size: 1rem;
+    padding: 5px 15px 5px 15px;
+  }
+  .menu-bars > p:hover{
+    padding: 5px 15px 5px 15px;
+    color: #1a83ff;
+  }
   .nav-menu {
     background-color: rgb(255, 255, 255, 0.3);
     width: 250px;
