@@ -48,7 +48,8 @@
   .profile{
     display: flex;
     justify-content: center;
-    padding: 90px;
+    padding: 90px 50px;
+    max-height: 55vh;
 }
 
 .profile__about{
@@ -91,12 +92,7 @@
     height: 270px;
     border-radius: 50px;
     align-items: center;
-
-    background: linear-gradient(
-      to left top,
-      rgba(255, 255, 255, 0.8)
-      rgba(255, 255, 255, 0.5)
-    );
+    background-color: rgba(255, 255, 255, 0.452);
     border-radius: 1rem;
     margin: 2rem 0rem;
     padding: 2rem;

@@ -13,7 +13,7 @@
   .menu-bars2 {
     margin-left: 2rem;
     font-size: 2rem;
-    position: absolute;
+    position: fixed;
     top:5%;
     padding:10px 10px 5px 10px;
     text-decoration: none;
@@ -29,7 +29,7 @@
   .menu-bars {
     margin-left: 2rem;
     font-size: 2rem;
-    position: absolute;
+    position: fixed;
     top:5%;
     text-decoration: none;
     background: linear-gradient(
