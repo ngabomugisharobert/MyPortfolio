@@ -1,4 +1,7 @@
 .app{
   margin: 0 auto;
   top:0;background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+  display: flex;
+  flex-direction: row;
+  width: 100%;
 }

@@ -1,0 +1,26 @@
+
+.info {
+    width: 3rem;
+    height: 100vh;
+    color: rgba(black, 0.5);
+    font-size: small;
+    display: flex;
+    z-index: 3;
+    right: 0%;
+    flex-direction: column-reverse;
+    background-color: rgba(240, 248, 255, 0.685);
+    border-radius: 25px 0px 0px 25px;
+    position: fixed;
+  }
+
+ .info > p {
+    font-size: 1rem;
+    color: #666;
+    letter-spacing: 3px;
+    transform: rotate(270deg);
+     z-index: 5;
+     display: inline;
+     margin-top: 10px;
+     white-space: nowrap; 
+  }
+  

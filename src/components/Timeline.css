@@ -166,12 +166,13 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 10000px;
   }
   
   .glass {
     background: white;
     min-height: 70vh;
-    width: 90%;
+    width: 100%;
     background: linear-gradient(
       to right bottom,
       rgba(255, 255, 255, 0.7),
@@ -182,6 +183,7 @@ main {
     backdrop-filter: blur(2rem);
     display: flex;
     padding-bottom: 90px;
+    margin-top: 20px;
   }
   .circle1,
   .circle2 {
@@ -209,7 +211,7 @@ main {
 
 
 
-.skills{
+.exp{
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -220,7 +222,7 @@ main {
     left:50%;
 
 }
-.skills > h1 {
+.exp > h1 {
     text-align: center;
     width: 200px; 
     background: linear-gradient(

@@ -1,0 +1,100 @@
+.skill__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.skill{
+    justify-content: center;
+    padding: 30px;
+}
+
+.skill__icon{
+
+    width:80px;
+    height:50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.skill__icon > h4{
+    text-align: center;
+    justify-content: center;
+    font-size: smaller;
+}
+
+.skills{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    text-align: center;
+    align-items: center;
+
+}
+.skills > h1 {
+    text-align: center;
+    width: 200px; 
+    background: linear-gradient(
+      to left top,
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.5)
+    );
+    border-radius: 1rem;
+    padding: 2rem;
+    box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
+    justify-content: space-between;
+    animation: animate-enter-frames 0.2s ease 0s 1 normal forwards;
+}
+
+
+
+  
+main {
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .glass {
+    background: white;
+    min-height: 70vh;
+    width: 90%;
+    background: linear-gradient(
+      to right bottom,
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.3)
+    );
+    border-radius: 2rem;
+    z-index: 2;
+    backdrop-filter: blur(2rem);
+    display: flex;
+    padding-bottom: 90px;
+  }
+  .circle1,
+  .circle2 {
+    background: white;
+    background: linear-gradient(
+      to right bottom,
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.3)
+    );
+    height: 20rem;
+    width: 20rem;
+    position: absolute;
+    border-radius: 50%;
+  }
+  
+  .circle1 {
+    top: 15%;
+    right: 1%;
+  }
+  .circle2 {
+    bottom: 0.1%;
+    left: 1%;
+  }
+
+

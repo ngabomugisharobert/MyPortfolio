@@ -9,7 +9,7 @@ const Timeline = () => timelinedata.length > 0 && (
 
     <main>
       <section className="glass">
-        <div className="skills">
+        <div className="exp">
             <h1>Experience</h1>
 
     <div className='timeline-container'>
