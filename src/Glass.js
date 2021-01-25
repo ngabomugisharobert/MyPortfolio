@@ -25,7 +25,7 @@ function Glass() {
                     <p>
                     I’m a software developer, I enjoy being challenged and engaging with projects that require me to work outside my comfort and knowledge set, as I continue to learn new languages and development techniques that are important to me and the success of the organization. 
                     </p>
-                    <p>Through my Experience, I have developed a strong understanding of JavaScript (ES5 & ES6), React, Node.js, Express, Java, Php, just to name few. As a developer, I find a lot of joy and excitement utilizing my skills to help troubleshoot bugs and pushing projects forward. I enjoy learning new technologies and growing in a field that is constantly being pushed to new boundaries.</p>
+                    <p>Through my Experience, I have developed a strong understanding of JavaScript (ES5 & ES6), React, Node.js, Express, Java, Php, just to name few. As a developer, I find a lot of joy and excitement utilizing my skills to help troubleshoot bugs and pushing projects forward. I enjoy learning new technologies and growing in a field that is constantly being pushed to new boundaries. <span className="build">Let’s build something cool.</span></p>
                 </div>
                 </HeadShake>
             </div>
