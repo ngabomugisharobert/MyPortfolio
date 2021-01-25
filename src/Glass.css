@@ -59,7 +59,10 @@
 }
 
 .about__note > p {
-    font-size: smaller;
+  font-size: 15px;
+    font-weight: normal;
+    line-height: 27px;
+    color: #666;
 }
 
 .about__note{
@@ -107,3 +110,22 @@
     border-radius: 280px;
 }
 
+.titl{
+  position:absolute;
+  top: 3%;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
+}
+
+.names{
+  text-align: center;
+  color: rgb(49, 47, 47);
+  align-self: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-weight: 600;
+  margin-top: 5px;
+}
