@@ -4,13 +4,15 @@ h1{
 
 .timeline-container{
     display: flex;
+    width: 900px;
     flex-direction: column;
     position: relative;
-    margin: 40px 0;
+    margin: 120px 0;
+    left: calc(50% - 450px);
 }
 
 .timeline-container::after{
-    background-color: red;
+    background-color: rgb(83, 71, 199);
     content: '';
     position: absolute;
     left: calc(50% - 2px);
@@ -35,10 +37,11 @@ h1{
 }
 
 .timeline-item-content{
+    
     background-color: whitesmoke;
     max-width: 70%;
     width: 400px;
-    padding: 15px;
+    padding: 25px;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -47,10 +50,22 @@ h1{
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0.3);
       
+
+    word-wrap: normal;
+    background: linear-gradient(
+      to left top,
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.5)
+    );
+    border-radius: 1rem;
+    margin: 2rem 0rem;
+    box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
+    justify-content: space-between;
+    
 }
 .timeline-item-content::after{
     content: '';
-    background-color: red;
+    background-color: whitesmoke;
     position: absolute;
     transform: rotate(45deg);
     right: -7.5px;
@@ -72,14 +87,17 @@ h1{
 
 .timeline-item-content .tag{
     color: #fff;
-    font-size: 12px;
+    font-size: 1rem;
     font-weight: bold;
     padding: 5px;
     position: absolute;
     letter-spacing: 1px;
+    margin-top: 5px;
+    margin-right: 5px;
     top: 5px;
     left: 5px;
     text-transform: uppercase;
+    border-radius: 5px;
 }
 
 .timeline-item:nth-child(odd) .timeline-item-content .tag{
@@ -89,7 +107,7 @@ h1{
 
 .timeline-item-content .time{
     color: #777;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .timeline-item-content p{
@@ -102,11 +120,12 @@ h1{
 .timeline-container a::after{
     content: '';
     font-size: 12px;
+
 }
 
 .timeline-item-content .circle{
     background-color: #fff;
-    border: 3px solid #e17b77;
+    border: 3px solid #4c58c4;
     border-radius: 50%;
     position: absolute;
     top: calc(50% - 10px);
@@ -114,9 +133,73 @@ h1{
     width: 20px;
     height: 20px;
     z-index: 100;
+    margin-right: 8px;
 }
 
 .timeline-item:nth-child(odd) .timeline-item-content .circle{
     right: auto;
-    left: -40px;
+    left: -59px;
 }
+
+.position{
+    color:rgb(72, 69, 252);
+}
+.linking{
+    text-decoration:none;
+    font-style: italic;
+    color: #777;
+
+}
+
+
+/* for background*/
+
+
+
+  
+main {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .glass {
+    background: white;
+    min-height: 70vh;
+    width: 90%;
+    background: linear-gradient(
+      to right bottom,
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.3)
+    );
+    border-radius: 2rem;
+    z-index: 2;
+    backdrop-filter: blur(2rem);
+    display: flex;
+    padding-bottom: 90px;
+  }
+  .circle1,
+  .circle2 {
+    background: white;
+    background: linear-gradient(
+      to right bottom,
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.3)
+    );
+    height: 20rem;
+    width: 20rem;
+    position: absolute;
+    border-radius: 50%;
+  }
+  
+  .circle1 {
+    top: 15%;
+    right: 1%;
+  }
+  .circle2 {
+    bottom: 0.1%;
+    left: 1%;
+  }
+
+

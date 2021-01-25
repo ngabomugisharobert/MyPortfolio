@@ -5,12 +5,13 @@ const Timelineitem=({data})=>(
     <div className="timeline-item">
         <div className="timeline-item-content">
             <span className='tag' style={{background: data.category.color}}>
-                {data.category.tag}
+               {data.category.tag}
             </span>
-            <time>{data.time}</time>
-            <p>{data.time}</p>
+            <h2 className='position'>{data.text}</h2>
+            <time className='time'>{data.time}</time>
+            <p>{data.description}</p>
             {data.link && (
-                <a href={data.link.url} target='_blank' rel='noopener noreferrer'>
+                <a className='linking' href={data.link.url} target='_blank' rel='noopener noreferrer'>
                     {data.link.text}
                 </a>
             )}
