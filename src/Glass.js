@@ -1,7 +1,6 @@
 import React from 'react'
 import './Glass.css'
 import robert from './asset/robert.jpg'; // with import
-import Jump from 'react-reveal/Jump';
 import HeadShake from 'react-reveal/HeadShake';
 
 function Glass() {
