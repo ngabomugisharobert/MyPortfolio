@@ -4,11 +4,11 @@ h1{
 
 .timeline-container{
     display: flex;
-    width: 900px;
+    width:auto;
+    min-width: 1000px;
     flex-direction: column;
     position: relative;
     margin: 120px 0;
-    left: calc(50% - 450px);
 }
 
 .timeline-container::after{
@@ -203,3 +203,30 @@ main {
   }
 
 
+
+
+.skills{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    text-align: center;
+    align-items: center;
+    left:50%;
+
+}
+.skills > h1 {
+    text-align: center;
+    width: 200px; 
+    background: linear-gradient(
+      to left top,
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.5)
+    );
+    border-radius: 1rem;
+    padding: 2rem;
+    box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
+    justify-content: space-between;
+    animation: animate-enter-frames 0.2s ease 0s 1 normal forwards;
+}

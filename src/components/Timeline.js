@@ -9,11 +9,14 @@ const Timeline = () => timelinedata.length > 0 && (
 
     <main>
       <section className="glass">
+        <div className="skills">
+            <h1>Skills</h1>
+
     <div className='timeline-container'>
         {timelinedata.map((data, idx) => (
             <Timelineitem data={data} key={idx}/>
         ))}
-    </div>
+    </div></div>
       </section>
     </main>
     <div className="circle1"></div>
