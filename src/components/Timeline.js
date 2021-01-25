@@ -10,7 +10,7 @@ const Timeline = () => timelinedata.length > 0 && (
     <main>
       <section className="glass">
         <div className="skills">
-            <h1>Skills</h1>
+            <h1>Experience</h1>
 
     <div className='timeline-container'>
         {timelinedata.map((data, idx) => (
