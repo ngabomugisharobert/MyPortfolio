@@ -5,7 +5,7 @@ const data = [
     description: "DTec is an Indian software development company that has a branch here in Rwanda.",
     category: {
       tag: "DTec",
-      color: "#f14",
+      color: "rgba(233, 233, 1, 0.493)",
     },
     link: {
       url: "https://hr.rra.gov.rw",
@@ -19,7 +19,7 @@ const data = [
     description: "I worked as a remote subcontractor software engineer at Tieto in Industry solutions and software in this company based in Finland.",
     category: {
       tag: "TietoEvry",
-      color: "#f14",
+      color: "rgb(71, 141, 199)",
     },
     link: {
       url: "https://www.tietoevry.com/en/industries/forest-pulp-paper-and-fibre/pulp-paper-and-fibre/tips-industry-solutions-and-services/",
@@ -33,7 +33,7 @@ const data = [
     description: "I worked on TIPS/4 which creates a framework to support the transformation journey in industries such as pulp, paper, board, converting, tissue, non-woven, packaging, and other flat-sheet industries.",
     category: {
       tag: "High Hill Software",
-      color: "#f14",
+      color: "rgb(71, 199, 82)",
     },
     link: {
       url: "#",
@@ -47,7 +47,7 @@ const data = [
     description: "participated in the development of RBCNet. system software that is used by all RBC staff members in different activities including; creating mission order requests for fieldwork and allow different staff members to access some resources with different permissions.",
     category: {
       tag: "Rwanda Biomedical Center",
-      color: "#f14",
+      color: "rgb(4, 87, 11)",
     },
     link: {
       url: "http://197.243.7.234:5050/",
