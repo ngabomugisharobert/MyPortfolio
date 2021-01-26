@@ -1,6 +1,5 @@
 import React from 'react'
 import './Info.css'
-const spc =""
 
 function Info() {
     return (
