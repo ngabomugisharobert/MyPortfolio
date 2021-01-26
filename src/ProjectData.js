@@ -14,7 +14,7 @@ export default [
     description:
       "This is a website of Nigeria’s business law firms. We have always had an international outlook. We have a reputation for, and an outstanding record of, carrying out critical, innovative and complex work to the highest standards.",
       imageUrl:
-      "https://i.imgur.com/tG3iMov.png",
+      "https://i.imgur.com/zRvrdyR.png",
     link:
       "https://busfieldsolicitors.com",
   },
@@ -24,7 +24,7 @@ export default [
     description:
       "This is a website for Kumera Green Company",
       imageUrl:
-      "https://i.imgur.com/zDJmElT.png",
+      "https://i.imgur.com/FrG81DV.png",
     link:
       "https://kumeragreen.com/",
   },
@@ -34,7 +34,7 @@ export default [
     description:
       "This System helps RBC staff members to get mission approved(ordre de mission)",
       imageUrl:
-      "https://i.imgur.com/fLmTpIi.jpg",
+      "https://i.imgur.com/nvpj0fI.png",
     link:
       "http://197.243.7.234:5050/",
   },
@@ -44,7 +44,7 @@ export default [
     description:
       "This System helps RRA staff members to clock-in and clock-out. It is a replacement of fingerprint check-in/check-out devices to prevent the spread of covid-19",
       imageUrl:
-      "https://i.imgur.com/aBzULC0.jpg",
+      "https://i.imgur.com/XdlZdUt.png",
     link:
       "http://hr.rra.gov.rw/login",
   },
