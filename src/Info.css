@@ -24,3 +24,52 @@
      white-space: nowrap; 
   }
   
+  .lIcon{
+     position: fixed;
+     z-index: 20;
+     right: 0%;
+     top: 0%;
+     padding: 15px 15px;
+     background-color: aliceblue;
+     border-radius: 50px;
+     color:black
+  }
+  a{
+     text-decoration: none;
+     color:black
+  }
+
+a:hover{
+   color :blue;
+}
+  .lIcon2{
+   position: fixed;
+   z-index: 20;
+   right: 0%;
+   top: 10%;
+   padding: 15px 15px;
+   background-color: aliceblue;
+   border-radius: 50px;
+   color:black
+}
+
+.lIcon3{
+   position: fixed;
+   z-index: 20;
+   right: 0%;
+   top: 20%;
+   padding: 15px 15px;
+   background-color: aliceblue;
+   border-radius: 50px;
+   color:black
+}
+
+lIcon:hover{
+   color:rgb(243, 73, 73)
+}
+lIcon2:hover{
+   color:rgb(73, 73, 243)
+}
+lIcon3:hover{
+   color:rgb(73, 73, 243)
+}

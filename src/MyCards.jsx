@@ -26,7 +26,7 @@ const MYCard = props => {
         </Typography>
       </CardContent>
       <CardActions>
-      <a href={link} target="_blank" rel="noreferrer">Checkout the project</a>
+      <div className="blink_me"><a href={link} target="_blank" rel="noreferrer">Checkout the project</a></div>
       </CardActions>
     </Card>
   );
