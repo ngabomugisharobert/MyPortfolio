@@ -1,4 +1,5 @@
-export default [
+
+const hobby = [
   {
     title: "Covid-19 cases Tracker",
     price: "",
@@ -27,3 +28,4 @@ export default [
       "https://government-structures.herokuapp.com/",
   },
 ];
+export default hobby

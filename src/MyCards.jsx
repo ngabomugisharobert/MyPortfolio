@@ -5,6 +5,7 @@ import CardActions from "@material-ui/core/CardActions";
 import CardContent from "@material-ui/core/CardContent";
 import Typography from "@material-ui/core/Typography";
 import { IconButton, CardMedia } from "@material-ui/core";
+import './Cards.css'
 
 const MYCard = props => {
   const { title, description, imageUrl, link } = props;

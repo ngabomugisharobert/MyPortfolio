@@ -1,4 +1,5 @@
-export default [
+
+const projectData = [
   {
     title: "NRB Hotel Inventory",
     price: "",
@@ -59,3 +60,4 @@ export default [
       "https://www.tietoevry.com/en/industries/forest-pulp-paper-and-fibre/pulp-paper-and-fibre/tips-industry-solutions-and-services/",
   },
 ];
+export default projectData
