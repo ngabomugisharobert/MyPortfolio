@@ -23,17 +23,17 @@
     font-size: smaller;
 }
 
-.skills{
+.card_containers{
     display: flex;
     justify-content: center;
     flex-direction: column;
     flex-wrap: wrap;
-    margin-top: 20px;
+    margin: 70px;
     text-align: center;
     align-items: center;
 
 }
-.skills > h1 {
+.card_containers > h1 {
     text-align: center;
     width: 200px; 
     background: linear-gradient(
@@ -98,3 +98,11 @@ main {
   }
 
 
+
+
+  .card{
+    max-width: 100px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
