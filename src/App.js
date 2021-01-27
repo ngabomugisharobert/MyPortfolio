@@ -6,9 +6,16 @@ import Glass from './Glass'
 import Timeline from './components/Timeline'
 import Projects from './Projects'
 import Info from './Info'
+import ReactGA from 'react-ga'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
+function initAnalytics(){
+  ReactGA.initialize("G-92YJ1S8V8H")
+  ReactGA.pageview("/")
+}
+
 function App() {
+  initAnalytics();
   return (
 
 
