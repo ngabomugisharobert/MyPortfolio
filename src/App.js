@@ -22,7 +22,6 @@ function App() {
 
     <div className="app">
       <Router>
-        <Navbar />
         <Switch>
           <Route path='/' exact component={Glass} />
           <Route path='/skills' component={Skills} />

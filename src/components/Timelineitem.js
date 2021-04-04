@@ -1,5 +1,4 @@
 import React from 'react'
-import './Timeline.css'
 
 const Timelineitem=({data})=>(
     <div className="timeline-item">

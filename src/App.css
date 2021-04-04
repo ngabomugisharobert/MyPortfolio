@@ -5,3 +5,10 @@
   flex-direction: row;
   width: 100%;
 }
+
+main{
+  height: 100% !important
+}
+.glass{
+  height:  100% !important;
+}
