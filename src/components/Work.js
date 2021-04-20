@@ -3,6 +3,7 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 import content from '../content';
 import useWindowPosition from '../hook/useWindowPosition';
+// import github from '../../public/assets/github.png'
 
 export default function Work() {
   const animated = useWindowPosition('header', 0.6);
@@ -63,18 +64,50 @@ const ProjectDetail = () => {
       >
         {content.work.desc}
       </p>
-      <button
+      <div class="ml-4 flex-shrink-0 flex">
+      <a href="https://github.com/ngabomugisha" target="_blank"
         className={`${
           animated ? '' : 'translate-y-10 opacity-0'
         } transform transition duration-2000  px-20 py-3 m-4 bg-black flex justify-around text-white rounded-lg shadow-2xl`}
       >
         <img
-          src="https://timo.engineer/assets/icons/rocket.svg"
+          width ="35"
+          height = "30"
+          src={process.env.PUBLIC_URL + '/assets/github.png'}
+          alt="rocket"
+          className="max-w-min"
+        />
+        <p className="text-lg"></p>
+      </a>
+      <a href="https://www.linkedin.com/in/robert-ngabo-mugisha-877a72122/" target="_blank"
+        className={`${
+          animated ? '' : 'translate-y-10 opacity-0'
+        } transform transition duration-2000  px-20 py-3 m-4 bg-black flex justify-around text-white rounded-lg shadow-2xl`}
+      >
+        <img
+          width ="30"
+          height = "30"
+          src={ process.env.PUBLIC_URL + '/assets/in.png'}
           alt="rocket"
           className="mr-5"
         />
         <p className="text-lg"></p>
-      </button>
+      </a>
+      <a href="https://www.instagram.com/kingrobert250/" target="_blank"
+        className={`${
+          animated ? '' : 'translate-y-10 opacity-0'
+        } transform transition duration-2000  px-20 py-3 m-4 bg-black flex justify-around text-white rounded-lg shadow-2xl`}
+      >
+        <img
+          width ="30"
+          height = "30"
+          src={process.env.PUBLIC_URL + '/assets/instagram.png'}
+          alt="rocket"
+          className="mr-5"
+        />
+        <p className="text-lg"></p>
+      </a>
+      </div>
     </div>
   );
 };
