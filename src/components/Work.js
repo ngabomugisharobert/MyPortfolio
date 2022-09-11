@@ -65,7 +65,7 @@ const ProjectDetail = () => {
         {content.work.desc}
       </p>
       <div class="ml-4 flex-shrink-0 flex">
-      <a href="https://github.com/ngabomugisha" target="_blank" rel="noopener noreferrer"
+      <a href="https://github.com/ngabomugisharobert" target="_blank" rel="noopener noreferrer"
         className={`${
           animated ? '' : 'translate-y-10 opacity-0'
         } transform transition duration-2000  px-20 py-3 m-4 bg-black flex justify-around text-white rounded-lg shadow-2xl`}
