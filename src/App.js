@@ -10,9 +10,9 @@ function App() {
     <>
       <Navigation />
       <Header />
-      <Work />
-      <Stack />
-      <Contact />
+      // <Work />
+      // <Stack />
+      // <Contact />
     </>
   );
 }
