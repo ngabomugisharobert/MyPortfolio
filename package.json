@@ -36,7 +36,9 @@
   },
   "devDependencies": {
     "autoprefixer": "^9.8.6",
+    "postcss": "^8.4.49",
     "postcss-cli": "^8.1.0",
+    "postcss-flexbugs-fixes": "^5.0.2",
     "react-scripts": "^5.0.1",
     "tailwindcss": "^1.9.3",
     "webpack": "^5.97.0"
