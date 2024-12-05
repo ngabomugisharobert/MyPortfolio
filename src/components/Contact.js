@@ -31,21 +31,21 @@ export default function Contact() {
         <div className="font-dosis w-4/5 md:w-2/5 mt-5 transtion duration-2000">
           <h1
             className={`${
-              animated ? '' : 'translate-y-10 opacity-0'
+              animated ? '' : 'translate-y-10 opacity-25'
             } transform transition duration-3000 text-white text-5xl font-bold`}
           >
             {content.contact.title}
           </h1>
           <p
             className={`${
-              animated ? '' : 'translate-y-10 opacity-0'
+              animated ? '' : 'translate-y-10 opacity-25'
             } transform transition duration-3000 text-white text-2xl`}
           >
             {content.contact.desc}
           </p>
           <div
             className={`flex ${
-              animated ? '' : 'translate-y-10 opacity-0'
+              animated ? '' : 'translate-y-10 bg-opacity-75'
             } transform transition duration-3000 `}
           >
             {content.contact.socials.map((social, index) => {

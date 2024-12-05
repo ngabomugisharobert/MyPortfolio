@@ -62,9 +62,11 @@ const ProjectDetail = () => {
           animated ? '' : 'translate-y-10 opacity-0'
         }  transform transition duration-2000 inline-block w-11/12 m-4  text-xl font-dosis`}
       >
-        {content.work.desc}
+        {content.work.desc[0]}
+        <br/>
+        {/* {content.work.desc[1]} */}
       </p>
-      <div class="ml-4 flex-shrink-0 flex">
+      <div class="ml-20 flex-shrink-0 flex">
       <a href="https://github.com/ngabomugisharobert" target="_blank" rel="noopener noreferrer"
         className={`${
           animated ? '' : 'translate-y-10 opacity-0'
@@ -79,7 +81,7 @@ const ProjectDetail = () => {
         />
         <p className="text-lg"></p>
       </a>
-      <a href="https://www.linkedin.com/in/robert-ngabo-mugisha-877a72122/" target="_blank" rel="noopener noreferrer"
+      <a href="https://www.linkedin.com/in/robert250/" target="_blank" rel="noopener noreferrer"
         className={`${
           animated ? '' : 'translate-y-10 opacity-0'
         } transform transition duration-2000  px-20 py-3 m-4 bg-black flex justify-around text-white rounded-lg shadow-2xl`}
@@ -88,20 +90,6 @@ const ProjectDetail = () => {
           width ="30"
           height = "30"
           src={ process.env.PUBLIC_URL + '/assets/in.png'}
-          alt="rocket"
-          className="mr-5"
-        />
-        <p className="text-lg"></p>
-      </a>
-      <a href="https://www.instagram.com/kingrobert250/" target="_blank" rel="noopener noreferrer"
-        className={`${
-          animated ? '' : 'translate-y-10 opacity-0'
-        } transform transition duration-2000  px-20 py-3 m-4 bg-black flex justify-around text-white rounded-lg shadow-2xl`}
-      >
-        <img
-          width ="30"
-          height = "30"
-          src={process.env.PUBLIC_URL + '/assets/instagram.png'}
           alt="rocket"
           className="mr-5"
         />

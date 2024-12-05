@@ -54,15 +54,17 @@ export default function Header() {
             />
           </h1>
 
-          <ScrollLink to="mywork" smooth={true}>
+          {/* <ScrollLink to="mywork" smooth={true}> */}
             <button
+            // make this button open a new tab to my medium account
+              onClick={() => window.open('https://robert250.medium.com')}
               className={` animate-bounce bg-indigo-500 px-10 py-3 text-lg uppercase text-white rounded-lg mt-10 hover:bg-indigo-300 transform  ${
                 animated ? 'translate-y-0' : styleTranslate
               } ${transition(3500)}`}
             >
               {content.header.btnText}
             </button>
-          </ScrollLink>
+          {/* </ScrollLink> */}
         </div>
       </div>
     </div>

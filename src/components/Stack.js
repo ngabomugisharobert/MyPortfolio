@@ -6,7 +6,7 @@ export default function Stack() {
   return (
    <>
     <h1>
-    Coding is fun!
+    {/* Coding is fun! */}
     </h1>
     </>
   );
