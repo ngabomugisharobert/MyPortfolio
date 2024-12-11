@@ -58,7 +58,7 @@ const content = {
   contact: {
     title: 'Ping Me!',
     desc:
-      "rngabomucc@gmail.com",
+      "robertmugishatc@gmail.com",
     socials: [
       {
         alt: 'github',
