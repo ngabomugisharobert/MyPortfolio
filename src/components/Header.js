@@ -26,7 +26,7 @@ export default function Header() {
         <div className="w-full md:w-2/5 ">
           <LazyLoadImage
             src={content.header.img}
-            alt="profile"
+            alt="Robert Ngabo Mugisha - Android Developer"
             className={`w-full mx-auto`}
             effect="blur"
             placeholderSrc={content.header.imgPlaceholder}
