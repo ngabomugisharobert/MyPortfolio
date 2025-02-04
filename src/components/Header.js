@@ -4,6 +4,7 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 import content from '../content';
 import useStartAnimation from '../hook/useStartAnimation';
+import { Helmet } from 'react-helmet-async';
 
 export default function Header() {
   const transition = (duration) =>
@@ -11,6 +12,9 @@ export default function Header() {
   const styleTranslate = 'translate-y-10 opacity-0';
   const animated = useStartAnimation();
   return (
+      <>
+        <Helmet>
+          <title>Robert Ngabo Mugisha - Android Developer</title>
     <div
       style={{
         background: '#091C29',
@@ -67,5 +71,7 @@ export default function Header() {
         </div>
       </div>
     </div>
+    </Helmet>
+    </>
   );
 }

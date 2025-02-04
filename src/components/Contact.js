@@ -1,6 +1,7 @@
 import React from 'react';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
+import { Helmet } from 'react-helmet-async';
 
 import content from '../content';
 import useWindowPosition from '../hook/useWindowPosition';
@@ -8,6 +9,9 @@ import useWindowPosition from '../hook/useWindowPosition';
 export default function Contact() {
   const animated = useWindowPosition('header', 0.6, 4);
   return (
+    <>
+      <Helmet>
+        <title>Robert Ngabo Mugisha - Android Developer</title>
     <div
       style={{color: "white"}}
       className=" min-h-screen  flex justify-center items-center  "
@@ -64,5 +68,7 @@ export default function Contact() {
         </div>
       </div>
     </div>
+    </Helmet>
+    </>
   );
 }

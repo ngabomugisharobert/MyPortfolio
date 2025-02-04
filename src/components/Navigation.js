@@ -1,9 +1,13 @@
 import React from 'react';
 import { Link as ScrollLink } from 'react-scroll';
 import content from '../content';
+import { Helmet } from 'react-helmet-async';
 
 export default function Navigation() {
   return (
+      <>
+        <Helmet>
+          <title>Robert Ngabo Mugisha - Android Developer</title>
     <div
       style={{
         background: '#091C29',
@@ -35,5 +39,7 @@ export default function Navigation() {
         </div>
       </div>
     </div>
+    </Helmet>
+    </>
   );
 }

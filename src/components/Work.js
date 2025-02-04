@@ -3,11 +3,15 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 import content from '../content';
 import useWindowPosition from '../hook/useWindowPosition';
+import { Helmet } from 'react-helmet-async';
 // import github from '../../public/assets/github.png'
 
 export default function Work() {
   const animated = useWindowPosition('header', 0.6);
   return (
+        <>
+          <Helmet>
+            <title>Robert Ngabo Mugisha - Android Developer</title>
     <div
       className="min-h-screen flex justify-center items-center flex-col"
       style={{
@@ -43,12 +47,17 @@ export default function Work() {
         </div>
       </div>
     </div>
+    </Helmet>
+    </>
   );
 }
 
 const ProjectDetail = () => {
   const animated = useWindowPosition('header', 0.6);
   return (
+      <>
+        <Helmet>
+          <title>Robert Ngabo Mugisha - Android Developer</title>
     <div>
       <h1
         className={` ${
@@ -97,5 +106,7 @@ const ProjectDetail = () => {
       </a>
       </div>
     </div>
+    </Helmet>
+    </>
   );
 };
