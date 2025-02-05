@@ -15,6 +15,8 @@ export default function Header() {
       <>
         <Helmet>
           <title>Robert Ngabo Mugisha - Android Developer</title>
+        <meta name="description" content="Robert Ngabo Mugisha | Senior Android Developer" />
+      </Helmet>
     <div
       style={{
         background: '#091C29',
@@ -71,7 +73,6 @@ export default function Header() {
         </div>
       </div>
     </div>
-    </Helmet>
     </>
   );
 }

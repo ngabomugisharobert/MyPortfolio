@@ -10,8 +10,10 @@ export default function Contact() {
   const animated = useWindowPosition('header', 0.6, 4);
   return (
     <>
-      <Helmet>
-        <title>Robert Ngabo Mugisha - Android Developer</title>
+            <Helmet>
+              <title>Robert Ngabo Mugisha - Android Developer</title>
+            <meta name="description" content="Robert Ngabo Mugisha | Senior Android Developer" />
+          </Helmet>
     <div
       style={{color: "white"}}
       className=" min-h-screen  flex justify-center items-center  "
@@ -68,7 +70,6 @@ export default function Contact() {
         </div>
       </div>
     </div>
-    </Helmet>
     </>
   );
 }

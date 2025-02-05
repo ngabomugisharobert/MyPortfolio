@@ -6,8 +6,10 @@ import { Helmet } from 'react-helmet-async';
 export default function Navigation() {
   return (
       <>
-        <Helmet>
-          <title>Robert Ngabo Mugisha - Android Developer</title>
+              <Helmet>
+                <title>Robert Ngabo Mugisha - Android Developer</title>
+              <meta name="description" content="Robert Ngabo Mugisha | Senior Android Developer" />
+            </Helmet>
     <div
       style={{
         background: '#091C29',
@@ -29,8 +31,8 @@ export default function Navigation() {
         <div className="text-white text-xl">
           {content.nav.links.map((link, index) => {
             return (
-              <ScrollLink to={link.to} smooth={true}>
-                <span className="mr-4 cursor-pointer" key={index}>
+              <ScrollLink to={link.to} smooth={true} key={index}>
+                <span className="mr-4 cursor-pointer">
                   {link.text}
                 </span>
               </ScrollLink>
@@ -39,7 +41,6 @@ export default function Navigation() {
         </div>
       </div>
     </div>
-    </Helmet>
     </>
   );
 }

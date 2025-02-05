@@ -10,8 +10,10 @@ export default function Work() {
   const animated = useWindowPosition('header', 0.6);
   return (
         <>
-          <Helmet>
-            <title>Robert Ngabo Mugisha - Android Developer</title>
+                <Helmet>
+                  <title>Robert Ngabo Mugisha - Android Developer</title>
+                <meta name="description" content="Robert Ngabo Mugisha | Senior Android Developer" />
+              </Helmet>
     <div
       className="min-h-screen flex justify-center items-center flex-col"
       style={{
@@ -47,7 +49,6 @@ export default function Work() {
         </div>
       </div>
     </div>
-    </Helmet>
     </>
   );
 }
@@ -56,8 +57,10 @@ const ProjectDetail = () => {
   const animated = useWindowPosition('header', 0.6);
   return (
       <>
-        <Helmet>
-          <title>Robert Ngabo Mugisha - Android Developer</title>
+              <Helmet>
+                <title>Robert Ngabo Mugisha - Android Developer</title>
+              <meta name="description" content="Robert Ngabo Mugisha | Senior Android Developer" />
+            </Helmet>
     <div>
       <h1
         className={` ${
@@ -75,7 +78,7 @@ const ProjectDetail = () => {
         <br/>
         {/* {content.work.desc[1]} */}
       </p>
-      <div class="ml-20 flex-shrink-0 flex">
+      <div className="ml-20 flex-shrink-0 flex">
       <a href="https://github.com/ngabomugisharobert" target="_blank" rel="noopener noreferrer"
         className={`${
           animated ? '' : 'translate-y-10 opacity-0'
@@ -106,7 +109,6 @@ const ProjectDetail = () => {
       </a>
       </div>
     </div>
-    </Helmet>
     </>
   );
 };
